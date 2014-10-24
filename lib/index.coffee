@@ -3,11 +3,11 @@ latex = null
 
 module.exports =
   activate: ->
-    atom.workspaceView.command 'tabs-to-spaces:convert', ->
+    atom.workspaceView.command 'latex-to-unicode:convert', ->
       loadModule()
       latex.convert()
 
-    atom.workspaceView.command 'tabs-to-spaces:convertAll', ->
+    atom.workspaceView.command 'latex-to-unicode:convertAll', ->
       loadModule()
       latex.convertAll()
 

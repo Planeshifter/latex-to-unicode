@@ -1,6 +1,6 @@
 module.exports =
 class Latex
-  convertAll:
+  convertAll: ->
     console.log 'Convert all'
-  convert:
+  convert: ->
     console.log 'COnvert'
